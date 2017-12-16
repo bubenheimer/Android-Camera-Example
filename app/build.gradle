@@ -1,0 +1,17 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+
+    defaultConfig {
+        applicationId 'com.example.cam'
+        minSdkVersion 21
+        targetSdkVersion 22
+        versionName '1.0'
+        versionCode 1
+        resConfigs 'en', 'en-rUS'
+    }
+}
+
+dependencies {
+}
